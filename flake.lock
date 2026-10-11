@@ -1,21 +1,5 @@
 {
   "nodes": {
-    "gtimelog-macosx": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1706889220,
-        "narHash": "sha256-9jByTvB32hVuzmjQYwpUTG4wr6BItArPyHxhKWrHmCo=",
-        "owner": "minddistrict",
-        "repo": "gtimelog-macosx",
-        "rev": "05c1b37d9f0d06905f1614052ce5122cf0ac7f0c",
-        "type": "github"
-      },
-      "original": {
-        "owner": "minddistrict",
-        "repo": "gtimelog-macosx",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1791594108,
@@ -32,7 +16,6 @@
     },
     "root": {
       "inputs": {
-        "gtimelog-macosx": "gtimelog-macosx",
         "nixpkgs": "nixpkgs"
       }
     }
