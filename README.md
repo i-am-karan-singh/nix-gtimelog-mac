@@ -8,7 +8,13 @@ inputs.gtimelog-mac = {
 	url = "github:i-am-karan-singh/nix-gtimelog-mac";
 	inputs.nixpkgs.follows = "nixpkgs";
 };
+# OR for flakehub
+inputs.gtimelog-mac = {
+	url = "https://flakehub.com/f/karan/nix-gtimelog-mac/0.1";
+	inputs.nixpkgs.follows = "nixpkgs";
+};
 ...
+# AND
 home.packages = [ 
 	inputs.gtimelog-mac.packages.${pkgs.stdenv.hostPlatform.system}.default 
 ];
