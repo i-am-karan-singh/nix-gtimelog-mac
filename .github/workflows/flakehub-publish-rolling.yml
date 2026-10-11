@@ -16,7 +16,7 @@ jobs:
       - uses: "DeterminateSystems/determinate-nix-action@v3"
       - uses: "DeterminateSystems/flakehub-push@main"
         with:
-          name: "i-am-karan-singh/nix-gtimelog-mac"
+          name: "karan/nix-gtimelog-mac"
           rolling: true
           visibility: "public"
           include-output-paths: true
